@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "1",
+  "name": "Hidrae",
+  "description": "Water reminder",
+  "permissions": ["storage", "notifications", "alarms"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Hidrae",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}
